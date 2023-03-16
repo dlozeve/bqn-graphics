@@ -1,0 +1,30 @@
+* BQN Graphics
+
+A collection of graphics-related tools for [[https://mlochbaum.github.io/BQN/][BQN]].
+
+** Generate [[https://netpbm.sourceforge.net/doc/pnm.html][PNM]] images
+
+- [[https://netpbm.sourceforge.net/doc/pbm.html][PBM]] (black and white)
+- [[https://netpbm.sourceforge.net/doc/pgm.html][PGM]] (grayscale)
+- [[https://netpbm.sourceforge.net/doc/ppm.html][PPM]] (color)
+
+** Utilities for color management
+
+- Convert HSV colors to RGB
+- Various colormaps (magma, inferno, plasma, and viridis)
+
+** Examples
+
+You need =pnmtopng= from [[https://netpbm.sourceforge.net/doc/index.html][netpbm]], =convert= from [[https://imagemagick.org/][ImageMagick]], and =bqn= on your =PATH=.
+
+#+begin_src sh
+cd examples
+make all
+#+end_src
+
+[[./examples/hsv.png]]
+[[./examples/gradient.png]]
+
+[[./examples/random_pbm.png]]
+[[./examples/random_pgm.png]]
+[[./examples/random_ppm.png]]
