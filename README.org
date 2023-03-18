@@ -22,6 +22,8 @@ cd examples
 make all
 #+end_src
 
+[[./examples/gcdgrid.png]]
+
 [[./examples/hsv.png]]
 [[./examples/gradient.png]]
 
